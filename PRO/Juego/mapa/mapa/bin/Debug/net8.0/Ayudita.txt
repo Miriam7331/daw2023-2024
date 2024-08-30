@@ -1,0 +1,2 @@
+VIDA (+): comer fruta/verdura (o), aliados (%). VIDA (-): comer chuches (#), enemigos (MPN). DINERO (+): ($), vender fruta/verdura.
+Cambia mapa (X), personajes (&). Ganar: pagar en caja (F) si fruta/verdura = dinero. Pierdes si fruta/verdura != dinero o vidas = 0.
