@@ -1,5 +1,7 @@
 # daw2023-2024
-Tareas de clase
+Homeworks
+
+## Español:
 Este repositorio es una recopilación de algunas de las tareas y ejercicios que me han mandado en varias asignaturas de clases.
 
 ## English:
