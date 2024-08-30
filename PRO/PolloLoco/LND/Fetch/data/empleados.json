@@ -1,0 +1,20 @@
+[
+     {
+          "id" : 1,
+          "nombre" : "Pedro Ramon",
+          "empresa" : "EMPRESA PROGRAM FTV",
+          "trabajo" : "Desarrollador Web"
+     },
+     {
+          "id" : 2,
+          "nombre" : "Alejandra",
+          "empresa" : "EMPRESA PROGRAM FTV",
+          "trabajo" : "Diseñadora Grafica"
+     },
+     {
+          "id" : 3,
+          "nombre" : "Javier Cámara",
+          "empresa" : "EMPRESA PROGRAM FTV",
+          "trabajo" : "Aplicaciones Móviles"
+     }
+]
