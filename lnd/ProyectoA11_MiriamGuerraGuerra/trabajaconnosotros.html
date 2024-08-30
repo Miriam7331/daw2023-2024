@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>WineLand</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web de vinos">
+    <meta name="keywords" content="vinos, tiendavinos, comprarvinos, vinotinto, vinoblanco, vinoespumoso, vinorosado">
+    <meta name="author" content="Miriam Guerra Guerra">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header class="row">
+        <div class="d-flex ">
+            <div class="p-2 bg-danger flex-fill">
+                <a href="home.html"> <img src="logo.png" class="rounded" alt="logo" width="94" height="90"> </a>
+                <a class="link-underline-danger" href="home.html">
+                    <h1 class="text-dark">WineLand</h1>
+                </a>
+            </div>
+            <a href="galeria.html" class="btn flex-fill btn-danger">Tienda</a>
+            <a href="contacto.html" class="btn flex-fill btn-danger ">Contacto</a>
+            <a href="micuenta.html" class="btn flex-fill btn-danger">Mi cuenta</a>
+        </div>
+    </header>
+
+
+
+    <main class="row">
+        <section class="container mt-1">
+
+            <article class="bg-danger p-3">
+                <h1 id="text"></h1>
+                <p id="text1"></p>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="1" max="110">
+                <br><br>
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero">
+                    <option value="F">Mujer</option>
+                    <option value="M">Hombre</option>
+                </select>
+                <br><br>
+                <button onclick="verificarJubilacion()">Verificar</button>
+                <br><br>
+                <p id="resultado"></p>
+                <h1 id="text3"></h1>
+                <p id="text2"></p>
+                <p id="text4"></p>
+
+                <button onclick="rellenarTabla()">Pulsa para introducir datos</button>
+                <br><br>
+                <table id="tabla" class="table table-striped table-responsive">       
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Primer Apellido</th>
+                            <th>Segundo Apellido</th>
+                            <th>Email</th>
+                            <th>Teléfono</th>
+                        </tr>
+                    </thead>
+                </table>
+                <br><br>
+                <button onclick="error()">Enviar</button>
+                <p id="text5"></p>
+
+            </article>
+        </section>
+    </main>
+
+    <footer class="container-12 p-5 my-2 bg-dark text-white">
+
+        <div class="container mt-3">
+            <a href="home.html" class="btn btn-outline-danger">Inicio</a>
+            <a href="videos.html" class="btn btn-outline-danger">Información</a>
+            <a href="galeria.html" class="btn btn-outline-danger">Tienda</a>
+            <a href="trabajaconnosotros.html" class="btn btn-outline-danger">Trabajar con nosotros</a>
+            <a href="contacto.html" class="btn btn-outline-danger">Contacto</a>
+        </div>
+    </footer>
+
+    <script src="ejerciciojs.js"></script>
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

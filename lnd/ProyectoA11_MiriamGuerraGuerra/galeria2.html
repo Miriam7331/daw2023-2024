@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>WineLand</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web de vinos">
+    <meta name="keywords" content="vinos, tiendavinos, comprarvinos, vinotinto, vinoblanco, vinoespumoso, vinorosado">
+    <meta name="author" content="Miriam Guerra Guerra">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header class="row">
+        <div class="d-flex ">
+            <div class="p-2 bg-danger flex-fill">
+                <a href="home.html"> <img src="logo.png" class="rounded" alt="logo" width="94" height="90"> </a>
+                <a class="link-underline-danger" href="home.html">
+                    <h1 class="text-dark">WineLand</h1>
+                </a>
+            </div>
+            <a href="galeria.html" class="btn flex-fill btn-danger">Tienda</a>
+            <a href="contacto.html" class="btn flex-fill btn-danger ">Contacto</a>
+            <a href="micuenta.html" class="btn flex-fill btn-danger">Mi cuenta</a>
+        </div>
+    </header>
+
+
+
+    <main class="row">
+
+        <nav class="container mt-3" id="cambiar">
+            <div id="texto_a_cambiar">
+                <button onclick="color()">
+                    Pulsa para usar modo oscuro.
+                </button>
+                <button onclick="restaurarColor()">Pulsa para usar modo claro.</button>
+
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="galeria.html">Vinos tintos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="galeria.html">Vinos blancos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="#vinoespumoso">Vinos espumosos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="#vinorosado">Vinos rosados</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+        <section class="container mt-1">
+<br><br>
+
+            <article id="vinoespumoso" class="row">
+                <h2>Vinos Espumosos</h2><br>
+                <div class="col-sm">
+                    <div class="card " style="width:400px">
+                        <img class="card-img-top" src="esp1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Valdo</h4>
+                            <span class="badge bg-danger">Más vendido</span><br><br>
+                            <p class="card-text">Este vino espumoso rosado te acompañará en las ocaciones más
+                                románticas y especiales. Permite que su suave y burbujeante sabor empape tus
+                                pápilas gustativas. Ideal para las peticiones más románticas, su suave aroma a fresas te envolverá con mucha dulzura.</p>
+                              
+                            <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card " style="width:400px">
+                        <img class="card-img-top" src="esp2.png" alt="Card image" style="width:70%">
+                        <div class="card-body">
+                            <h4 class="card-title">Mathie y Claudine</h4>
+                            <p class="card-text">Un báscio en las celebraciones desde hace siglos. Este
+                                Champagne te traerá la buena suerte y un manjar más a la mesa para ese momento
+                                de alegría junto a los que más quieres. Ideal para celebrar el nuevo año, nuevos acuerdos empresariales, nuevos comienzos, inaugurar trabajos o casa, el límite es tu imaginación.</p>
+                            <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="esp3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Champagne Grande Réserve Brut</h4>
+                        <p class="card-text">Este vino burbujeante fue creado con los ingredientes más
+                            selectos y los métodos más rigurosos para esos amantes del vino más exigentes.
+                            Perfecto para celebrar nuevos comienzos y grandes acuerdos.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="esp4.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Schoffit</h4>
+                        <p class="card-text">
+
+                            Este vino espumoso agrada a todos, desde el más experto hasta el que lo prueba
+                            por primera vez. Un acierto seguro para todo el mundo, este vino de suaves
+                            burbujas y ligeros aromas dulces y afrutados capaz de conquistar el paladar más
+                            rancio.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+              
+            </article>
+<br>
+            <article id="vinorosado" class="row">
+                <h2>Vinos Rosados</h2><br>
+                <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="rosa1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Provenzals </h4>
+                        <p class="card-text">Pruebe uno de los vinos de moda en la actualidad, a medio
+                            camino entre el tinto y el blanco, le ofrecemos este magnífico vino rosado.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="laverriere.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">La Verriere</h4>
+                        <p class="card-text">Un vino fresco y agradable como los de uva blanca pero con unos
+                            aromas y sabores complejos característicos de las uvas tintas.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="rosa4.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Delighted</h4>
+                        <p class="card-text">Proveniente de uno de los viñedos más innovadores y al mismo
+                            tiempo tradicionales, nos acerca esta bebida valorada por su sabor diferenciado
+                            desde hace muchos siglos.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="rosa2.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Cotes du Rhone</h4>
+                        <p class="card-text">
+                            Elaborado con uvas tintas prensadas suavemente, este vino con su característico
+                            color rosado llega para conquistar las mesas de los gourmets más sofisticados.
+                        </p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+      
+                
+            </article>
+<br><br>
+            <ul class="pagination  pagination-lg justify-content-center">
+
+                <li class="page-item"><a class="page-link link-danger" href="galeria.html">Previa</a></li>
+                <li class="page-item"><a class="page-link link-danger" href="galeria2.html">2</a></li>
+
+            </ul>
+
+
+
+
+
+        </section>
+    </main>
+
+
+    <footer class="container-12 p-5 my-2 bg-dark text-white">
+
+        <div class="container mt-3">
+            <a href="home.html" class="btn btn-outline-danger">Inicio</a>
+            <a href="videos.html" class="btn btn-outline-danger">Información</a>
+            <a href="galeria.html" class="btn btn-outline-danger">Tienda</a>
+            <a href="trabajaconnosotros.html" class="btn btn-outline-danger">Trabajar con nosotros</a>
+            <a href="contacto.html" class="btn btn-outline-danger">Contacto</a>
+        </div>
+    </footer>
+    <script src="ejerciciojs.js"></script>
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>WineLand</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web de vinos">
+    <meta name="keywords" content="vinos, tiendavinos, comprarvinos, vinotinto, vinoblanco, vinoespumoso, vinorosado">
+    <meta name="author" content="Miriam Guerra Guerra">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header class="row">
+        <div class="d-flex ">
+            <div class="p-2 bg-danger flex-fill">
+                <a href="home.html"> <img src="logo.png" class="rounded" alt="logo" width="94" height="90"> </a>
+                <a class="link-underline-danger" href="home.html">
+                    <h1 class="text-dark">WineLand</h1>
+                </a>
+            </div>
+            <a href="galeria.html" class="btn flex-fill btn-danger">Tienda</a>
+            <a href="contacto.html" class="btn flex-fill btn-danger ">Contacto</a>
+            <a href="micuenta.html" class="btn flex-fill btn-danger">Mi cuenta</a>
+        </div>
+    </header>
+
+
+
+    <main class="row">
+
+        <nav class="container mt-3" id="cambiar">
+            <div id="texto_a_cambiar">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="#vinotinto">Vinos tintos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="#vinoblanco">Vinos blancos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="galeria2.html">Vinos espumosos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-danger" href="galeria2.html">Vinos rosados</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="container mt-1">
+            <div class="bg-danger p-3">
+                <article class="container mt-3">
+                    <div class="mt-4 p-5 bg-light text-dark rounded">
+                        <mark>WineLand Shop</mark>
+                        <h1>WineLand Shop</h1>
+                        <span>En la tienda de WineLand podrás encontrar los mejores y más selectos vinos ofertados por
+                            nuestros proveedores para que puedas adquirir cada uno de ellos fácilmente del viñedo a tu
+                            mesa.</span>
+                        <br><br>
+                        <button onclick="color()">
+                            Pulsa para usar modo oscuro.
+                        </button>
+                        <button onclick="restaurarColor()">Pulsa para usar modo claro.</button>
+                    </div>
+
+
+
+                </article>
+
+
+            </div>
+            <br>
+
+            <article id="vinotinto" class="row">
+                <h2>Vinos Tintos</h2>
+       <br>
+            <div class="col-sm">
+
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="vinot1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Schwarzriesling </h4>
+                        <p class="card-text">Un vino con un suave aroma a manzana y especias ideal para esas
+                            tardes más cálidad, su suave cuerpo permite que sea un excelente acompañamiento
+                            para tablas de mesas más ligeras.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="vinot3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Corte Real</h4>
+                        <p class="card-text">Un vino tinto ideal para las ocaciones más especiales. Con la
+                            mejor seleción de uvas que le otorgan un gran cuerpo capaz de no dejar a nadie
+                            indiferente.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="tinto1.jpg" alt="Card image" style="width:41%">
+                    <div class="card-body">
+                        <h4 class="card-title">Marqués de Riscal</h4>
+                        <p class="card-text">Un vino español elaborado con los ingredientes más selectos.
+                            Este vino es ideal para las personas que no están acostumbradas al vino tinto,
+                            su sabor más afrutado es géntil con los paladares más sensibles.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="vinot4.jpg" alt="Card image" style="width:41%">
+                    <div class="card-body">
+                        <h4 class="card-title">Swartland</h4>
+                        <p class="card-text">
+                            <span class="badge rounded-pill bg-danger">Nuevo en nuestra tienda</span><br>
+                            Un clásico en cualquier bodega, es perfecto para las ocaciones en las que se
+                            quiere impresionar a las visitas. Un cuerpo denso y un aroma suave caracterizan
+                            este buen vino tinto. No dejará indiferente ni al más experto.
+                        </p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+
+            </article>
+<br>
+            <article id="vinoblanco" class="row">
+                <h2>Vinos Blancos</h2><br>
+           
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="blanco1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">ViaBlanca </h4>
+                        <p class="card-text">Estupendo vino afrutado, ideal para los días calurosos. Hecho
+                            con hubas selectas de la cordillera cantábrica. </p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="blanco2.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Casa Boher</h4>
+                        <p class="card-text">Vino blanco seco, con un liegro toque a canela y un suave aroma
+                            a manzana agría. Perfecto para acompañar en el almuerzo.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="blanco3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Waters</h4>
+                        <p class="card-text">Vino blanco dulce, fabricado con la uva más madura y jugosa.
+                            Ideal para los más golosos y para acompañar tablas de distintos manjares.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="blanco4.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Entrechuelos</h4>
+                        <p class="card-text"> Producido con la más selecta uva, se caracteriza por sus
+                            intensos aromas afrutados. Es perfecto para los más exigentes paladares.</p>
+                        <a href="carrito.html" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </div>
+         
+           
+            </article>
+<br>
+
+            <ul class="pagination  pagination-lg justify-content-center">
+
+                <li class="page-item"><a class="page-link link-danger" href="galeria.html">1</a></li>
+                <li class="page-item"><a class="page-link link-danger" href="galeria2.html">Siguiente</a></li>
+
+            </ul>
+
+
+
+
+
+
+        </section>
+    </main>
+
+
+    <footer class="container-12 p-5 my-2 bg-dark text-white">
+
+        <div class="container mt-3">
+            <a href="home.html" class="btn btn-outline-danger">Inicio</a>
+            <a href="videos.html" class="btn btn-outline-danger">Información</a>
+            <a href="galeria.html" class="btn btn-outline-danger">Tienda</a>
+            <a href="trabajaconnosotros.html" class="btn btn-outline-danger">Trabajar con nosotros</a>
+            <a href="contacto.html" class="btn btn-outline-danger">Contacto</a>
+        </div>
+    </footer>
+    <script src="ejerciciojs.js"></script>
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

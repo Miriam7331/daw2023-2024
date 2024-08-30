@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>WineLand</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Web de vinos">
+    <meta name="keywords" content="vinos, tiendavinos, comprarvinos, vinotinto, vinoblanco, vinoespumoso, vinorosado">
+    <meta name="author" content="Miriam Guerra Guerra">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="row">
+        <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">
+                    <img src="logo.png" alt="Logo" class="rounded-pill" width="90" height="90">
+                </a>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+                        WineLand
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li id="button1"  onmouseover="cambiarEstilo('button1')" onmouseout="cambiarEstilo('') " ><a class="dropdown-item" href="home.html">Inicio</a></li>
+                        <li id="button2"  onmouseover="cambiarEstilo('button2')" onmouseout="cambiarEstilo('') " ><a class="dropdown-item" href="galeria.html">Tienda</a></li>
+                        <li id="button3"  onmouseover="cambiarEstilo('button3')" onmouseout="cambiarEstilo('') " ><a  class="dropdown-item" href="contacto.html">Contacto</a></li>
+                        <li id="button4"  onmouseover="cambiarEstilo('button4')" onmouseout="cambiarEstilo('') " ><a  class="dropdown-item" href="micuenta.html">Mi cuenta</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="row">
+        <section class="container">
+            <div class="bg-danger p-5">
+                <div class="alert alert-danger">
+                    <strong>¡Error!</strong> Lo sentimos mucho, parece que ha habido un error al formalizar su compra.
+                    <br><br>
+                    <img src="error.jpg" alt="error" class="mx-auto d-block" style="width:50%">
+                    <br>
+                    <button type="button" onclick="dobleerror()">Volver a
+                        intentar
+                        <span class="spinner-border spinner-border-sm"></span></button>
+
+                        <p id="texto1"></p>
+                        <p id="texto2"></p>
+                        <p id="texto3"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-12 p-5 my-2 bg-dark text-white">
+
+        <div class="container mt-3">
+            <a href="home.html" class="btn btn-outline-danger">Inicio</a>
+            <a href="videos.html" class="btn btn-outline-danger">Información</a>
+            <a href="galeria.html" class="btn btn-outline-danger">Tienda</a>
+            <a href="trabajaconnosotros.html" class="btn btn-outline-danger">Trabajar con nosotros</a>
+            <a href="contacto.html" class="btn btn-outline-danger">Contacto</a>
+        </div>
+    </footer>
+    <script src="ejerciciojs.js"></script>
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

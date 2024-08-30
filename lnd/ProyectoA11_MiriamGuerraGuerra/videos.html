@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>WineLand</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web de vinos">
+    <meta name="keywords" content="vinos, tiendavinos, comprarvinos, vinotinto, vinoblanco, vinoespumoso, vinorosado">
+    <meta name="author" content="Miriam Guerra Guerra">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header class="row">
+        <div class="d-flex ">
+            <div class="p-2 bg-danger flex-fill">
+                <a href="home.html"> <img src="logo.png" class="rounded" alt="logo" width="94" height="90"> </a>
+                <a class="link-underline-danger" href="home.html">
+                    <h1 class="text-dark">WineLand</h1>
+                </a>
+            </div>
+            <a href="galeria.html" class="btn flex-fill btn-danger">Tienda</a>
+            <a href="contacto.html" class="btn flex-fill btn-danger ">Contacto</a>
+            <a href="micuenta.html" class="btn flex-fill btn-danger">Mi cuenta</a>
+        </div>
+    </header>
+
+
+
+    <main class="row">
+        <section class="container mt-1">
+            <div class="bg-danger p-3">
+                <h1 class="text-light text-center">El compromiso de WineLand con vosotros y con el mundo</h1>
+                <p class="bg-light">Para WineLand es muy importante la calidad del vino que distribuye por eso sigue de
+                    cerca la
+                    elaboración de cada uno de los vinos que vende junto a sus distinguidos proveedores. Nuestro
+                    compromiso empieza con el medio ambiente y concluye con nuestros clientes, que valoran nuestro
+                    esfuerzo por promover los cultivos ecológicos de vid y la más selecta selección de uvas para la
+                    elaboración de cada vino.</p>
+
+                <div style="text-align:center">
+                    <button onclick="playPause()">Continuar/Pausar</button>
+                    <button onclick="makeBig()">Agrandar vídeo</button>
+                    <button onclick="makeSmall()">Reducir vídeo</button>
+                    <button onclick="makeNormal()">Tamaño normal del vídeo</button>
+                    <br><br>
+                    <video id="video1" width="360">
+                        <source src="videos1.mp4" type="video/mp4">
+                        Sentimos comunicarle que su navegador no soporta este formato de vídeo.
+                    </video>
+                </div>
+
+                <script>
+                    var myVideo = document.getElementById("video1");
+
+                    function playPause() {
+                        if (myVideo.paused)
+                            myVideo.play();
+                        else
+                            myVideo.pause();
+                    }
+
+                    function makeBig() {
+                        myVideo.width = 660;
+                    }
+
+                    function makeSmall() {
+                        myVideo.width = 260;
+                    }
+
+                    function makeNormal() {
+                        myVideo.width = 360;
+                    } 
+                </script>
+
+
+                <div style="text-align:center">
+                    <button onclick="mostrar()">Continuar leyendo</button>
+
+                    <div id="contenido" style="display: none;">
+                        <h3 class="text-light">La selección de los mejores ingredientes.</h3>
+                        <p class="bg-light">Sabemos que con el paso de los años nos hemos ganado un pedacito de vuestro corazón y confianza y este gran honor nos impulsa a continuar esforzándonos por junto a nuestros proveedores seleccionar los mejores ingredientes, solo los que son de la más selecta calidad para que los vinos tengan en cada botella un sin fin de sensaciones esperando a que sean descorchadas.</p>
+                        <video id="video2" width="360" controls>
+                            <source src="vino2.mp4" type="video/mp4">
+                            Sentimos comunicarle que su navegador no soporta este formato de vídeo.
+                        </video>
+                 
+                 
+                        <h3 class="text-light">La elaboración por las manos más expertas.</h3>
+                        <p class="bg-light">Antes de asociarnos con un proveedor observamos sus procesos y métodos desde la siembra hasta el ebotellamiento, pasando por la cosecha, la elaboración y conservación. Solo nos asociamos con los que cumplen nuestros rigurosos filtros para traer a tus manos los mejores vinos.</p>
+                        <video id="video3" width="360" controls>
+                            <source src="vino3.mp4" type="video/mp4">
+                            Sentimos comunicarle que su navegador no soporta este formato de vídeo.
+                        </video>
+                        <br>
+                        <button onclick="ocultar()">Ocultar contenido</button>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+    <footer class="container-12 p-5 my-2 bg-dark text-white">
+
+        <div class="container mt-3">
+            <a href="home.html" class="btn btn-outline-danger">Inicio</a>
+            <a href="videos.html" class="btn btn-outline-danger">Información</a>
+            <a href="galeria.html" class="btn btn-outline-danger">Tienda</a>
+            <a href="trabajaconnosotros.html" class="btn btn-outline-danger">Trabajar con nosotros</a>
+            <a href="contacto.html" class="btn btn-outline-danger">Contacto</a>
+        </div>
+    </footer>
+    <script src="ejerciciojs.js"></script>
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
