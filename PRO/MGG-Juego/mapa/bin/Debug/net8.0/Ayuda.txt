@@ -1,0 +1,8 @@
+Usas las flechas para desplazarte. Usa escape para salir del juego.
+Empiezas con algo de vida y 0 monedas. 
+Te da vida: comer fruta (o), aliados (%).
+Te quita vida: comer chuches (#), los enemigos (M,P,N).
+Te da dinero: coger ($) del mapa o vender fruta (o).
+Cambia de mapa (X). Habla con personajes (&). 
+Gana cuando tengas lo mismo de fruta/verdura que de dinero yendo a pagar (F).
+Pierdes: si vas a pagar con distintas cantidades o cero, o te quedas con cero vidas.

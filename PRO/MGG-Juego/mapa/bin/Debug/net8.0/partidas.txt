@@ -1,0 +1,2 @@
+¡Has perdido el juego!
+¡Has ganado el juego!

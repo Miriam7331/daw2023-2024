@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="mapa.Celda">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Celda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Mapa">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAAAAAAAAAAAAABBAgIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapa.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="celdas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mapa.Jugador">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAgAAAAAAAAAAABAAAAAAAAAAABgAAAAACI=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Enemigo">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABgCAAAICA=</HashCode>
+      <FileName>Enemigo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Madre">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Madre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Padre">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Padre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Nutricionista">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Nutricionista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Fruta">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAkAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Fruta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mapa.Verdura">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAkAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Verdura.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mapa.Menu">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Inventario">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEQAAABAAAAAAAAAACAAAIAAAIMAgAAAAAAQ=</HashCode>
+      <FileName>Inventario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Pantallazo">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAASACAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Pantallazo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Chuche">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAkAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Chuche.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mapa.Aliado">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAgAAAAAAAAAAAAAAAAAABAAAABgCAAAACA=</HashCode>
+      <FileName>Aliado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Curandero">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Curandero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Maga">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Maga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Druida">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Druida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mapa.Frutera">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAgAAAAAABAAAAAAAAAAABgAEAAACA=</HashCode>
+      <FileName>Frutera.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mapa.Verdurero">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAgAAAAAABAAAAAAAAAAABgAEAAACA=</HashCode>
+      <FileName>Verdurero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="mapa.IFrutaVerdura">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAkAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>IFrutaVerdura.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="mapa.NPC">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAABgAAAAACA=</HashCode>
+      <FileName>NPC.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="mapa.Terreno">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAIAgAAAAAAgAIAAAAAAhAAAAgA=</HashCode>
+      <FileName>Terreno.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
